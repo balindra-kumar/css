@@ -1,0 +1,35 @@
+ <style>
+		html,
+		body {
+			margin:0;
+			padding:0;
+			height:100%;
+		}
+		.main{
+			min-height:100%;
+           position:relative;
+		}
+	
+		.footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#ee5;
+		}
+	</style>
+
+
+    <!--begin::Root-->
+	<div class="main">
+     <div class="sidebar">
+      fdsgfsdg
+	 </div>
+	 <div class="body">
+		<div class="header">
+			<h2>Header</h2>
+		</div>
+		<div class="footer">
+			<h2>Footer area</h2>
+		</div>
+	 </div>
+	</div>
