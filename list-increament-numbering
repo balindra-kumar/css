@@ -1,0 +1,32 @@
+sass stylesheet
+------------------
+ul
+  counter-reset: no
+  & li:before
+    counter-increment: no
+    content: counter(no) ". "
+  ul
+    padding-left: 20px 
+
+html Add
+--------
+<h2>Counter list in css3 </h2>
+<ul>
+  <li><a href="#">List 1</a></li>
+  <li><a href="#">List 1</a></li>
+  <li><a href="#">List 1</a>
+    <ul>
+    <li><a href="#">List 2</a></li>
+    <li><a href="#">List 2</a></li>
+    <li><a href="#">List 2</a></li>
+    <li><a href="#">List 2</a></li>
+    <li><a href="#">List 2</a></li>
+    <li><a href="#">List 2</a></li>
+    <li><a href="#">List 2</a></li>
+  </ul>
+  </li>
+  <li><a href="#">List 1</a></li>
+  <li><a href="#">List 1</a></li>
+  <li><a href="#">List 1</a></li>
+  <li><a href="#">List 1</a></li>
+</ul>
